@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class BirthdayWish {
+    public static void main(String[] args) {
+        // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask for the user's name
+        System.out.print("vishnu boiii :");
+        String name = scanner.nextLine();
+
+        // Ask for the user's age
+        System.out.print("20: ");
+        int age = scanner.nextInt();
+
+        // Print the birthday wish message
+        System.out.println("\nHappy Birthday , " + vishnu  + "!");
+        System.out.println("Congratulations on turning " + 20 + " years old!");
+        System.out.println("May this special day bring you lots of joy, happiness, and love!");
+
+        // Close the scanner
+        scanner.close();
+    }
+}
